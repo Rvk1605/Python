@@ -1,0 +1,1 @@
+import wikipedia dict = {'virus':'https://en.wikipedia.org/wiki/Virus', 'asteroid':'https://en.wikipedia.org/wiki/Asteroid', 'AI':'https://en.wikipedia.org/wiki/Artificial_intelligence' } word = list(dict.items()) print(word) word = input('Enter thr word: ') for i,j in dict.items(): if (word==i): print(wikipedia.summary(j, sentences=2)) else: print('Sorry'

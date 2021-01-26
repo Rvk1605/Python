@@ -1,8 +1,12 @@
-def Calc(x,y):
-    return (x+y,x-y)
+def avg(x,y):
+    """This Function Works For Only Two Numbers and this is a Docstring.
+    Is tells the Usability of Function Or Any Warnings in using Function"""
+    avg=(x+y)/2
+    print(avg)
 
-a=int(input("Enter !st Number:"))
-b=int(input("Enter 2nd Number:"))
-sum,diff=Calc(a,b)
-print("Sum = ",sum)
-print("Difference = ",diff)
+
+
+a=int(input())
+b=int(input())
+avg(a,b)
+print(avg.__doc__)  #This Is Syntax to see Docstring
