@@ -1,5 +1,0 @@
-s=int(input())
-n=int(input())
-a=list(map(int,input().split()))
-i=a.index(s)
-print(i)
